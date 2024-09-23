@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background: url(https://images.unsplash.com/photo-1583364481915-dacea3e06d18?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 150vh; 
+    padding-right: 350px;
+    box-shadow: 0px 0px 200px black solid;
+  }
+  
+  .registration-form {
+    background: linear-gradient(rgba(238, 116, 8, 0.39)35%, rgba(115, 119, 222, 0.566) );
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgb(39, 38, 38);
+    width: 400px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f5f0f0;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #f4eeee;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    font-size: 14px;
+  }
+  
+  input:focus {
+    border-color: #b5d56b;
+    outline: none;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #3522dd;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #9cf09c;
+  }
+  .reset {
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    cursor: pointer;
+    }
